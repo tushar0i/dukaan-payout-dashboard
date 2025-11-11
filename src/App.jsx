@@ -1,9 +1,9 @@
-import { Button } from "./components/Button";
-import MainCard from "./components/MainCard";
-import PProcessedCard from "./components/PProcessedCard";
-import PriceCard from "./components/PriceCard";
-import SidePanal from "./components/SidePanal";
-import TopBar from "./components/TopBar";
+import { Button } from "../components/Button";
+import MainCard from "../components/MainCard";
+import PProcessedCard from "../components/PProcessedCard";
+import PriceCard from "../components/PriceCard";
+import SidePanal from "../components/SidePanal";
+import TopBar from "../components/TopBar";
 
 const App = () => {
     return (

@@ -4,7 +4,7 @@ const PProcessedCard = ({
 }) => {
 
     return (<>
-        <div className="bg-white shadow-lg/10 p-4 rounded-lg m-2">
+        <div className="bg-white border border-gray-200   p-4 rounded-lg ">
             <div className="flex text-zinc-600 text-lg pb-4">
                 {title}
                 <div className="pl-2 my-auto">

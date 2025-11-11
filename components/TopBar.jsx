@@ -2,9 +2,12 @@ import SearchBox from "./SearchBox";
 
 const TopBar = () => {
     return (<>
-        <div className="flex justify-between items-center gap-4 px-8 py-3 bg-white shadow-lg/5 rounded-b-lg mb-2">
+        <div className="flex justify-between items-center sticky gap-4 px-8 py-3 bg-white border-b border-gray-300 ">
             <div className="flex items-center sm:grow">
-                <div className="text-2xl font-medium my-auto">
+                <div className="h-8 w-8 lg:hidden cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 18h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zm0-5h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1zM3 7c0 .55.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1H4c-.55 0-1 .45-1 1z"/></svg>
+                </div>
+                <div className="text-2xl pl-3 font-medium my-auto">
                     Payout
                 </div>
                 <div className=" flex pl-3  text-zinc-600 w-7.5  ">
@@ -23,10 +26,10 @@ const TopBar = () => {
             </div>
             <div className="sm:grow">
                 <div className="flex gap-3 justify-end ">
-                    <div className="bg-gray-200 rounded-full h-10 w-10 p-2  fill-zinc-600">
+                    <div className="bg-gray-200 rounded-full h-10 w-10 p-2  fill-black">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 11H7V9h2v2zm4 0h-2V9h2v2zm4 0h-2V9h2v2z"/></svg>
                     </div>
-                    <div className="bg-gray-200 rounded-full h-10 w-10 p-1 fill-zinc-600 cursor-pointer">
+                    <div className="bg-gray-200 rounded-full h-10 w-10 p-1 fill-black cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M300.3 440.8C312.9 451 331.4 450.3 343.1 438.6L471.1 310.6C480.3 301.4 483 287.7 478 275.7C473 263.7 461.4 256 448.5 256L192.5 256C179.6 256 167.9 263.8 162.9 275.8C157.9 287.8 160.7 301.5 169.9 310.6L297.9 438.6L300.3 440.8z" /></svg>
                     </div>
                 </div>

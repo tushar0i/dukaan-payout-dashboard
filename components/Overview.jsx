@@ -6,7 +6,7 @@ const Overview = () => {
     return (<>
         <div className="flex flex-col gap-5">
             <div className="flex justify-between items-center ">
-                <div className="text-xl font-medium">
+                <div className="text-2xl font-medium">
                     Overview
                 </div>
                 <div className=" flex justify-between items-center bg-white border border-gray-200 px-3 py-2 rounded-md  text-zinc-600 ">

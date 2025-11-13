@@ -10,7 +10,7 @@ const TopBar = ({ setSidebarOpen }) => {
 
 
                 <div className="text-2xl pl-3 lg:pl-0 font-medium my-auto">
-                    Payout
+                    Payouts
                 </div>
                 <div className=" flex pl-3  text-zinc-600 w-7.5  ">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-question-circle size-4" viewBox="0 0 16 16" >

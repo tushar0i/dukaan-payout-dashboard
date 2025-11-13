@@ -1,7 +1,7 @@
 const SidePanal = ({ sidebarOpen, setSidebarOpen }) => {
     return (<>
         <div
-            className={`fixed inset-0 bg-black bg-opacity-40 z-20 transition-opacity duration-300 lg:hidden ${sidebarOpen ? "opacity-50 pointer-events-auto" : "opacity-0 pointer-events-none"
+            className={`fixed top-0 inset-0 bg-black bg-opacity-40 z-20 transition-opacity duration-300 lg:hidden ${sidebarOpen ? "opacity-50 pointer-events-auto" : "opacity-0 pointer-events-none"
                 }`}
             onClick={() => setSidebarOpen(false)}
 
@@ -13,24 +13,23 @@ const SidePanal = ({ sidebarOpen, setSidebarOpen }) => {
             </div>
         </div>
 
-        <aside
-            className={`fixed z-30 top-0 left-0 h-screen w-56 bg-[#1E2640] transition-transform duration-300 transform 
+        <aside className={`fixed z-50 top-0 left-0 h-screen w-56 bg-[#1E2640] transition-transform duration-300 transform 
         ${sidebarOpen ? "translate-x-0" : "-translate-x-full"} 
         lg:translate-x-0 lg:static`}
         >
 
             <div className="relative mr-auto transition-transform duration-300 ease-in-out flex flex-col max-w-56 px-2 py-4 h-screen gap-4 bg-[#1E2640] justify-between translate-x-0">
                 <div class="h-full px-3 py-4 overflow-y-auto bg-[#18263d]">
-                    <div className="flex flex-col justify-between h-full">
+                    <div className="flex flex-col justify-between h-full ">
                         <div>
 
                             <div className="flex justify-between items-center pb-7">
                                 <div className="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-14 h-14 fill-white" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" /></svg>
-
+                                    {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-14 h-14 fill-white" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z" /></svg> */}
+                                    <img src="src/assets/prof.png" alt="" srcset="" className="w-11 h-11 rounded-md" />
                                     <div className="pl-2 flex-col">
                                         <div className="text-white text-sm font-bold">
-                                            SOME USER
+                                            Tushar T.
                                         </div>
                                         <div className="text-gray-400 underline  text-sm font-light cursor-pointer">
                                             Vistit Store

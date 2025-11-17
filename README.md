@@ -11,7 +11,8 @@ A clean, responsive **static dashboard website** built using **React** and **Tai
 
 ## 📹 Project Overview Video
 https://www.youtube.com/watch?v=tRngRHXzO9o
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tRngRHXzO9o?si=U9lV7NDBiY0lkGBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Watch the demo](./src/assets/thumbnail.png)](https://www.youtube.com/watch?v=tRngRHXzO9o)
+
 
 ## 🧠 What I Learned
 - Tailwind CSS utility-first styling
